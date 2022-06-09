@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_5</title>
+    <style>
+        .container {
+            max-width: 1000px;
+            margin-left: 300px;
+            margin-right: 600px;
+        }
+
+        .registerform {
+            font-size: 30px;
+            border-radius: 10px;
+        }
+
+        .login {
+            font-size: 30px;
+            color: #f1f0f0;
+        }
+
+        .fiel {
+            padding: 10px;
+            border: solid rgb(165, 164, 164);
+            background-color: rgba(255, 253, 253, 0.795);
+            border-radius: 40px;
+        }
+
+        .body {
+            background: url(../images/porsche-zoom2.webp);
+        }
+
+        .signature {
+            color: rgba(240, 248, 255, 0.781);
+        }
+
+        .signa {
+            color: #f1f0f057;
+        }
+
+        .img {
+            font-size: 20px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            border: solid rgb(165, 164, 164);
+            background-color: rgba(255, 253, 253, 0.795);
+            width: 450px;
+            height: 45px;
+        }
+
+        .logo {
+            width: 400px;
+            height: 90px;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <main>
+        <img src="../images/logro.png" alt="logo" class="logo">
+        <section class="container">
+            <form action="https://fom.in.ua/echo">
+                <fieldset>
+                    <legend class="login">AUTO-SELECT</legend>
+                    <p>
+                        <label>
+                            <input type="text" name="name" placeholder="Ім'я" class="fiel"><br>
+                        </label>
+                        <br>
+                        <label>
+                            <input type="tel" placeholder="Телефон" class="fiel"><br>
+                        </label>
+                        <br>
+                        <label>
+                            <input type="email" required placeholder="Поштова скринька" class="fiel"><br>
+                        </label>
+                        <br>
+                        <label>
+                            <input type="password" required placeholder="Надійний пароль:)" class="fiel"><br>
+                        </label>
+                        <br>
+                        <label class="signature">
+                            <input type="checkbox" name="age" required>
+                            Я приймаю умови угоди "Про надання онлайн-сервісів"
+                        </label>
+                        <br>
+                        <span class="signa">
+                            <em>(Ваші персональні дані будуть оброблені та захищені відповідно до Політики
+                                конфіденційності)
+                            </em>
+                        </span>
+                    </p>
+                </fieldset>
+                <button type="submit" class="img">
+                    Далі</button>
+
+                <br>
+                <a href="./index2.html" class="signature"><strong><em>Вже
+                            зареєстровані?</em></strong></a>
+            </form>
+            <h6>2022 - 2023 рік</h6>
+        </section>
+    </main>
+
+</body>
+
+</html>
