@@ -1,0 +1,47 @@
+
+body {
+    padding: 0 20px;
+    font-size: 10px;
+    color: #222222;
+}
+
+#item {
+    background-color: rgb(0, 126, 126);
+
+}
+
+.flex, .title{
+    color: rgb(10, 10, 107);
+    font-size: 2rem;
+
+}
+
+.title {
+    color: antiquewhite;
+    font-weight: 700;
+
+}
+
+.bold {
+background-color: rgb(229, 255, 82);
+color: rgb(37, 37, 37);
+
+}
+
+p {
+    border-bottom-width: 1px;
+    color: rgb(3, 16, 51);
+    margin-bottom: 10px;
+}
+
+section {
+    font-size: 20px;
+}
+
+input {
+    color: blueviolet;
+}
+
+.list li {
+background-color: rgb(121, 192, 172);
+}
