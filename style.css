@@ -1,0 +1,75 @@
+* {
+    margin: 40px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+html {
+    font-family: 'Roboto' sans-serif;
+    /* font-size: 15px;
+    font-weight: 500; */
+    
+}
+
+.card {
+    width: 1000px;
+    height: 200px;
+    background-color: #E6E6E6;
+
+}
+
+.group {
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin-top: 0%;
+    margin-left: 15px;
+    margin-right: 0%;
+    background-color: #FC8F8F;
+
+}
+
+.nomber1 {
+    
+    float: left;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 15px;
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+}
+ .nomber2 {
+        float: right;
+        margin-top: 0%;
+        margin-left: 15px;
+        margin-right: 0%;
+        width: 200px;
+        height: 200px;
+        background-color: #FC8F8F;
+ }
+
+ .blocktext {
+     font-family: 'Roboto';
+     font-size: 64px;
+     line-height: 75px;
+     margin-top: 63px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #fff;
+
+ }
+
+ .blocknomber {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-size: 36px;
+        line-height: 42px;
+        margin-top: 31px;
+        display: flex;
+        text-align: center;
+        color: #FFFFFF;
+ }
