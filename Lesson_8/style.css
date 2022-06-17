@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #727272;
+    background-color: #F9F9F9;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #34547A;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    padding-bottom: 40px;
+    color: #000000;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    padding-bottom: 30px;
+    color: #000000;
+}
+
+h3 {
+    font-weight: 500px;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+
+.container {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aside {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1143px;
+}
+
+.header {
+    padding-top: 79px;
+    background-color: #EEEFF1;
+}
+
+.items {
+    display: flex;
+    list-style-type: none;
+    gap: 42px;
+    letter-spacing: 0.1rem;   
+}
+
+.holder {
+    padding-top: 120px;
+    padding-bottom: 140px;
+    background-color: #EEEFF1;
+}
+
+.subject {
+    max-width: 540px;
+    padding-bottom: 65px;
+}
+
+.btn {
+    text-align: center;
+    padding: 19px 40px 19px 40px;
+    height: 65px;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: #34547A;
+    color: #FFFFFF;
+}
+
+.page {
+    padding-top: 90px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 540px;
+}
+.frame {
+    text-align: center;
+}
+
+.desc {
+    text-align: center;
+    margin-top: 100px;
+    background-color: #34547A;
+}
+
+.promo {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.thumb {
+    display: inline-block;
+    max-width: 100%;
+    padding-right: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.projects {
+    display: inline-block;
+    text-align: left;
+    max-width: 100%;
+    padding-right: 45px;
+    color: #FFFFFF;
+}
+
+.row {
+    padding-right: 0px;
+}
+
+.widget {
+    padding-top: 90px;
+    background-color: #EEEFF1;
+}
+
+.video {
+    width: 1030px;
+    height: 600px;
+    margin-top: 57px;
+    margin-bottom: 100px;
+}
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 140px;
+    background-color: #34547A;
+}
+
+.lead {
+    font-size: 13px;
+    line-height: 21px;
+    padding-top: 20px;
+    color: #FFFFFF;
+}
