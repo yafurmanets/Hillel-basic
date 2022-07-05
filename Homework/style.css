@@ -23,7 +23,7 @@ html, body{
     padding: 0px 10px;
     height: 40px;
     line-height: 40px;
-    transition: all .3s;
+    transition: all .2s;
     white-space: nowrap;
     border-bottom: 1px solid #666;
 }
@@ -46,6 +46,7 @@ a:hover {
     margin: 0px 10px 0px 0px;
 }
 .menu_list>li:hover .sub-menu_list {
+    display: block;
     clip: auto;
     width: auto;
     height: auto;
@@ -87,8 +88,10 @@ a:hover {
 .sub-sub-menu_list {
     position: absolute;
     text-align: center;
+    display: none;
     top: 0px;
     left: 100%;
+    padding: 0px;
 }
 
 .sub-sub-menu_list>li {
